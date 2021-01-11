@@ -10,7 +10,7 @@ struct Course{
 struct Student {
     char name[255];//255 bytes
     double GPA;//8 bytes
-    Course c; //object course
+    Course c; //object courses
 };
 
 int plus(int a, int b){
